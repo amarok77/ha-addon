@@ -30,7 +30,7 @@
     "domain": "str",
     "haip": "str",
     "mqtt_broker": "str",
-    "mqtt_port": 1833,
+    "mqtt_port": "1833",
     "mqtt_user": "str",
     "mqtt_pass": "str",
     "legrand_user": "str",
