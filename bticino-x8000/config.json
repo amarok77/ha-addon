@@ -1,0 +1,42 @@
+{
+  "name": "Bticino X8000",
+  "version": "1.0",
+  "slug": "bticino_x8000",
+  "description": "Bticino Chronothermostats",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "url": "https://github.com/amarok77/provaBackup",
+  "boot": "auto",
+  "homeassistant_api": true,
+  "hassio_api": true,
+  "map": ["config", "ssl"],
+  "webui": "http://[HOST]:[PORT:5588]",
+  "options": {
+    "client_id": "recived via email",
+    "client_secret": "recived via email",
+    "subscription_key": "subscription key",
+    "domain": "my home domain example.com",
+    "haip": "ip home assistant",
+    "mqtt_broker": "ip broker",
+    "mqtt_port": "mqtt broker port default:1883",
+    "mqtt_user": "your mqtt user",
+    "mqtt_pass": "your mqtt password",
+    "legrand_user": "your Legrand Email for 32bit installation set None",
+    "legrand_pass": "your Legrand password for 32bit installation set None"
+  },
+  "schema": {
+    "client_id": "str",
+    "client_secret": "str",
+    "subscription_key": "str",
+    "domain": "str",
+    "haip": "str",
+    "mqtt_broker": "str",
+    "mqtt_port": "port",
+    "mqtt_user": "str",
+    "mqtt_pass": "str",
+    "legrand_user": "str",
+    "legrand_pass": "str"
+  },
+  "ports": {
+    "5588": 5588
+  }
+}
