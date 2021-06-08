@@ -1,7 +1,7 @@
 {
-  "name": "Bticino X8000 addon",
+  "name": "Bticino X8000",
   "version": "1.0",
-  "slug": "bticino-x8000-addon",
+  "slug": "bticino_x8000",
   "description": "Bticino Chronothermostats",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "url": "https://github.com/amarok77/provaBackup",
