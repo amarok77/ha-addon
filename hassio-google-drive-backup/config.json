@@ -5,7 +5,6 @@
   "description": "Bticino Chronothermostats",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "url": "https://github.com/amarok77/provaBackup",
-  "startup": "services",
   "boot": "auto",
   "map": ["config", "ssl"],
   "webui": "http://[HOST]:[PORT:5588]",
@@ -23,17 +22,17 @@
     "legrand_pass": "your Legrand password for 32bit installation set None"
   },
   "schema": {
-    "client_id": "str?",
-    "client_secret": "str?",
-    "subscription_key": "str?",
-    "domain": "str?",
-    "haip": "str?",
-    "mqtt_broker": "str?",
+    "client_id": "str",
+    "client_secret": "str",
+    "subscription_key": "str",
+    "domain": "str",
+    "haip": "str",
+    "mqtt_broker": "str",
     "mqtt_port": 1833,
-    "mqtt_user": "str?",
-    "mqtt_pass": "str?",
-    "legrand_user": "str?",
-    "legrand_pass": "str?"
+    "mqtt_user": "str",
+    "mqtt_pass": "str",
+    "legrand_user": "str",
+    "legrand_pass": "str"
   },
   "ports": {
     "5588": 5588
