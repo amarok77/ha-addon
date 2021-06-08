@@ -38,6 +38,6 @@
   },
   "ports": {
     "5588": 5588
-  }
+  },
   "image": "amarok77/provaBackup-{arch}"
 }
