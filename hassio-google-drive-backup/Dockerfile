@@ -21,4 +21,4 @@ EXPOSE 5588
 
 CMD [ "/app/run.sh" ]
 
-ENTRYPOINT ["python3", "-m", "backup"]
+#ENTRYPOINT ["python3", "-m", "backup"]
