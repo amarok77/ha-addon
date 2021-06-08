@@ -4,7 +4,7 @@
   "slug": "bticino_x8000",
   "description": "Bticino Chronothermostats",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "url": "https://github.com/amarok77/provaBackup",
+  "url": "https://github.com/amarok77/ha-addon",
   "boot": "auto",
   "homeassistant_api": true,
   "hassio_api": true,
