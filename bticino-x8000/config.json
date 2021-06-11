@@ -5,11 +5,9 @@
   "description": "Bticino Chronothermostats",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "url": "https://github.com/amarok77/ha-addon",
- # "boot": "auto",
   "homeassistant_api": true,
   "hassio_api": true,
   "map": ["config", "ssl"],
- # "webui": "http://[HOST]:[PORT:5588]",
   "options": {
     "client_id": "",
     "client_secret": "",
@@ -38,6 +36,5 @@
   },
   "ports": {
     "5588": 5588
-  },
-  # "image": "amarok77/ha-addon-{arch}"
+  }
 }
